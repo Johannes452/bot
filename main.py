@@ -25,3 +25,8 @@ async def on_member_join(member):
             print("Adminrolle nicht gefunden.")
 
 bot.run("MTM4Mzg2MjUyNjY5NzI3NTU0Mw.Ge6I1K.YwbhIo_0VddNgzP_Bxm0GD-SgYswKxAcCGj6_w")
+
+import os
+
+TOKEN = os.getenv("MTM4Mzg2MjUyNjY5NzI3NTU0Mw.Ge6I1K.YwbhIo_0VddNgzP_Bxm0GD-SgYswKxAcCGj6_w")
+bot.run(TOKEN)
